@@ -1,0 +1,53 @@
+{
+  "name": "@kurox_real/plugin-canaryguard",
+  "version": "1.0.2",
+  "type": "module",
+  "description": "Deterministic prompt injection firewall, concealed Unicode scrubbing, and wallet drain defense for ElizaOS agents on Base.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ak10082247-max/plugin-canaryguard.git"
+  },
+  "keywords": [
+    "elizaos",
+    "eliza",
+    "ai16z",
+    "prompt-injection",
+    "security",
+    "firewall",
+    "x402",
+    "base",
+    "agentkit"
+  ],
+  "author": "AK | Kurox",
+  "license": "MIT",
+  "peerDependencies": {
+    "@elizaos/core": ">=0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@elizaos/core": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

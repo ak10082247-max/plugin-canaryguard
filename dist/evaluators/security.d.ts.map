@@ -1,0 +1,1 @@
+{"version":3,"file":"security.d.ts","sourceRoot":"","sources":["../../src/evaluators/security.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,aAAa,CAAC;AAElD,eAAO,MAAM,oBAAoB;;;;yBAKJ,GAAG,WAAW,GAAG,KAAG,OAAO,CAAC,OAAO,CAAC;wBAIrC,GAAG,WAAW,GAAG,UAAU,GAAG,KAAG,OAAO,CAAC,cAAc,CAAC;;;;;;;;;;;CAiCnF,CAAC"}
