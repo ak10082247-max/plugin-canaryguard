@@ -50,6 +50,14 @@ export const character = {
 };
 ```
 
+### 🤖 Turnkey Shielded Character Template
+
+We provide an off-the-shelf, battle-tested trading character in `characters/shielded-trader.character.json` that prevents prompt injections from draining your agent's wallet while autonomously executing on-chain trades:
+
+```bash
+eliza start --character node_modules/@kurox_real/plugin-canaryguard/characters/shielded-trader.character.json
+```
+
 ### Manual Sanitization Action
 
 For explicitly sanitizing untrusted external documents or scraped web pages before prompt construction:
