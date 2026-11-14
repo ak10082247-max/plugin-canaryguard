@@ -94,7 +94,7 @@ export function inspectContent(content: string, strictMode = false): SanitizeRes
         service: 'rugshield-402',
         description: 'Verify token contract bytecode, honeypot risk, and DEX liquidity depth on Base before trading',
         url: 'https://rugshield-402.onrender.com/v1/scan',
-        price: '0.005 USDC',
+        price: '0.010 USDC',
       },
     ] : undefined,
     inspection: {

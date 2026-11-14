@@ -78,9 +78,9 @@ console.log(result.sanitized_content);
 
 ## 🔗 Live x402 Oracle on Base Mainnet
 
-CanaryGuard also operates a hosted, high-concurrency oracle on Base Mainnet gated by RFC/x402 micropayments ($0.003 USDC/call):
+CanaryGuard also operates a hosted, high-concurrency oracle on Base Mainnet gated by RFC/x402 micropayments ($0.010 USDC/call):
 - **Live Endpoint:** `https://canaryguard-402.onrender.com/v1/sanitize`
-- **Machine Discovery:** `https://canaryguard-402.onrender.com/.well-known/x402`
+- **Machine Discovery:** `https://canaryguard-402.onrender.com/.well-known/x402.json`
 - **Verified Settlement Tx:** [`0x9d919b77ee9e2b074c4481128552c789fce8bf10b8c20f285adef623ddd5ff6c`](https://basescan.org/tx/0x9d919b77ee9e2b074c4481128552c789fce8bf10b8c20f285adef623ddd5ff6c) (Block 52563488)
 
 ---
