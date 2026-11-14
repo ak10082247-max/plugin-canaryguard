@@ -1,6 +1,6 @@
 {
   "name": "@kurox_real/plugin-canaryguard",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "description": "Deterministic prompt injection firewall, concealed Unicode scrubbing, and wallet drain defense for ElizaOS agents on Base.",
   "main": "./dist/index.js",
@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "node --test test/plugin.test.js"
+    "test": "node --test test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -51,5 +51,10 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "@x402/evm": "^2.31.0",
+    "@x402/fetch": "^2.31.0",
+    "viem": "^2.57.19"
   }
 }

@@ -4,13 +4,17 @@ import { canaryGuardProvider } from './providers/status.js';
 
 export * from './types.js';
 export * from './engine/rules.js';
+export * from './x402.js';
 export * from './actions/sanitize.js';
 export * from './evaluators/security.js';
 export * from './providers/status.js';
 
+export const promptInjectionEvaluator = canaryGuardEvaluator;
+
 export const canaryGuardPlugin = {
   name: 'canaryguard',
-  description: 'Deterministic prompt injection defense, Unicode scrubber, and wallet drain firewall for ElizaOS agents on Base.',
+  description:
+    'Prompt injection defense, Unicode steganography scrubber, and Base x402 API plugin for ElizaOS agents.',
   actions: [sanitizeAction],
   evaluators: [canaryGuardEvaluator],
   providers: [canaryGuardProvider],
